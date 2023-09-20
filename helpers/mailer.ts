@@ -2,7 +2,7 @@ import nodemailer from "nodemailer"
 import { MyError } from "../schemas/errors"
 
 let transporter = nodemailer.createTransport({
-  host: "smtp.office365.com",
+  host: "smtp.gmail.com",
   port: 587,
   secure: false, // upgrade later with STARTTLS
   auth: {
